@@ -1,6 +1,5 @@
 # reading and writing to the sensehat with python
 
-from sense_hat import SenseHat
 from sense_emu import SenseHat
 from time import sleep
 
