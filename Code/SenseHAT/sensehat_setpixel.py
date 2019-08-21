@@ -2,7 +2,7 @@ from sense_emu import SenseHat
 
 sense = SenseHat()
 
-sense.clear(255, 255, 255)
+sense.clear(0, 0, 0)
 sense.set_pixel(2, 2, (0, 0, 255))
 sense.set_pixel(4, 2, (0, 0, 255))
 sense.set_pixel(3, 4, (100, 0, 0))
