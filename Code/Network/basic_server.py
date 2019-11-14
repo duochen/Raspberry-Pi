@@ -8,5 +8,6 @@ while True:
     data = conn.recv(1024)
     if not data:
         break
+    print(str(data))
     conn.sendall(data)
 conn.close()
